@@ -1,7 +1,14 @@
+import { BrowserRouter } from 'react-router-dom'
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <h1 className="text-red-500 text-3xl"> App </h1>
+    <div className="mx-auto">
+      <BrowserRouter>
+        <Navbar />
+      </BrowserRouter>
+      <main></main>
+    </div>
   )
 }
 
