@@ -20,6 +20,13 @@ class SpeedCheck extends React.Component {
             </div>
           </div>
         </div>
+        <hr className='my-5'/>
+        <div className="container-typing mx-auto">
+          <div className='flex'>
+            <input className='w-full py-2 pl-3 outline-none border border-[#E6E6E6] rounded-l-lg' type="text" placeholder='Mətini daxil edin' />
+            <button className='bg-[#20C997] hover:bg-[#29bb8f] text-white px-3 rounded-r-lg'>Reset</button>
+          </div>
+        </div>
       </>
     
     )
