@@ -5,7 +5,7 @@ class SpeedCheck extends React.Component {
   render() {
     return (
       <>
-        <div className='container-typing mx-auto'>
+        <div className='container mx-auto'>
           <div className='w-full border text-center rounded mt-5'>
             <div className='bg-[#00000008] py-4 border-b border-[#00000020]'>
               <h1 className='text-4xl text-[#090c18]'>Yazma sürət testi</h1>
