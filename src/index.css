@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-    .container-typing {
-        max-width: 1070px;
+    .container {
+        max-width: 1070px !important;
     }
 }
 
