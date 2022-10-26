@@ -28,6 +28,25 @@ class SpeedCheck extends React.Component {
           </div>
           <hr className='my-5'/>
         </div>
+        <div className="container mx-auto">
+          <div className='flex items-center gap-5'>
+            <div className='border w-full p-4'>
+              <div className=''>
+                Vaxt:
+              </div>
+            </div>
+            <div className='border w-full p-4'>
+              <div className=''>
+                Dogruluk:
+              </div>
+            </div>
+            <div className='border w-full p-4'>
+              <div className=''>
+                DBK:
+              </div>
+            </div>
+          </div>
+        </div>
       </>
     
     )
